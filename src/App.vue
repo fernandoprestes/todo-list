@@ -6,4 +6,8 @@
     name: 'App',
   };
 </script>
-<style lang=""></style>
+<style lang="css">
+  body {
+    background-color: #1e293b;
+  }
+</style>

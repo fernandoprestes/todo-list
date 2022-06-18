@@ -5,8 +5,10 @@ import '@vue/runtime-core';
 
 declare module '@vue/runtime-core' {
   export interface GlobalComponents {
+    IconDelete: typeof import('./components/IconDelete.vue')['default'];
     RouterLink: typeof import('vue-router')['RouterLink'];
     RouterView: typeof import('vue-router')['RouterView'];
+    TodoList: typeof import('./components/TodoList.vue')['default'];
   }
 }
 
