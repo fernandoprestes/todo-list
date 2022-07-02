@@ -8,6 +8,9 @@ declare module '@vue/runtime-core' {
     IconDelete: typeof import('./components/IconDelete.vue')['default'];
     RouterLink: typeof import('vue-router')['RouterLink'];
     RouterView: typeof import('vue-router')['RouterView'];
+    TodoActive: typeof import('./components/TodoActive.vue')['default'];
+    TodoAll: typeof import('./components/TodoAll.vue')['default'];
+    TodoDone: typeof import('./components/TodoDone.vue')['default'];
     TodoList: typeof import('./components/TodoList.vue')['default'];
   }
 }
