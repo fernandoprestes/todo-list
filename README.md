@@ -1,6 +1,6 @@
-# Template de projeto Vue3 + TS
+# TodoList Vue3 + TS + Pinia
 
-Este repositório serve como um template para projetos pessoal e/ou profissional futuro, usando as seguintes tecnologias:
+TodoList criado com com vue3, Typescript usando [Pinia](https://pinia.vuejs.org/) para gerenciar o estado, e o localStore para armazenar o `Array` das tasks.
 
 ## Tecnologias
 
@@ -13,6 +13,8 @@ Este repositório serve como um template para projetos pessoal e/ou profissional
 - [Eslint-plugin-vue](https://eslint.vuejs.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://typicode.github.io/husky/#/)
+- [Pinia](https://pinia.vuejs.org/)
+- [VueUse](https://vueuse.org/)
 
 ### Ferramentas recomendadas
 
@@ -23,3 +25,5 @@ Este repositório serve como um template para projetos pessoal e/ou profissional
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 ---
+
+2022 - [github/fernandoprestes](https://github.com/fernandoprestes)
