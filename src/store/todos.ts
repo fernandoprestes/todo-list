@@ -27,12 +27,10 @@ export const useTodoList = defineStore('todos', {
   actions: {
     addToList(item: Item) {
       this.todoList.unshift(item);
-      localStorage.setItem('list', JSON.stringify(this.todoList));
     },
 
     deleteFromList(index: number) {
       this.todoList.splice(index, 1);
-      localStorage.setItem('list', JSON.stringify(this.todoList));
     },
 
     toggleCheckbox(item: Item) {
