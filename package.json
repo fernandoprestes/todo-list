@@ -1,7 +1,8 @@
 {
   "name": "todo-list",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "author": "@fernandoprestes",
   "husky": {
     "hooks": {
       "pre-commit": "lint-staged"
@@ -26,13 +27,16 @@
     ]
   },
   "dependencies": {
-    "@vueuse/core": "^8.7.3",
+    "@vueuse/core": "^8.7.5",
     "@vueuse/head": "^0.7.6",
+    "pinia": "^2.0.14",
+    "uuid": "^8.3.2",
     "vue": "^3.2.37",
     "vue-router": "^4.0.16"
   },
   "devDependencies": {
     "@types/node": "^18.0.0",
+    "@types/uuid": "^8.3.4",
     "@typescript-eslint/eslint-plugin": "^5.28.0",
     "@typescript-eslint/parser": "^5.28.0",
     "@vitejs/plugin-vue": "^2.3.3",
