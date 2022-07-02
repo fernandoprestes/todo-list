@@ -102,6 +102,7 @@ declare global {
   const useAttrs: typeof import('vue')['useAttrs'];
   const useBase64: typeof import('@vueuse/core')['useBase64'];
   const useBattery: typeof import('@vueuse/core')['useBattery'];
+  const useBluetooth: typeof import('@vueuse/core')['useBluetooth'];
   const useBreakpoints: typeof import('@vueuse/core')['useBreakpoints'];
   const useBroadcastChannel: typeof import('@vueuse/core')['useBroadcastChannel'];
   const useBrowserLocation: typeof import('@vueuse/core')['useBrowserLocation'];
@@ -211,6 +212,7 @@ declare global {
   const useTimeoutPoll: typeof import('@vueuse/core')['useTimeoutPoll'];
   const useTimestamp: typeof import('@vueuse/core')['useTimestamp'];
   const useTitle: typeof import('@vueuse/core')['useTitle'];
+  const useTodoList: typeof import('./store/todos')['useTodoList'];
   const useToggle: typeof import('@vueuse/core')['useToggle'];
   const useTransition: typeof import('@vueuse/core')['useTransition'];
   const useUrlSearchParams: typeof import('@vueuse/core')['useUrlSearchParams'];
@@ -344,6 +346,7 @@ declare module 'vue' {
     useAttrs: typeof import('vue')['useAttrs'];
     useBase64: typeof import('@vueuse/core')['useBase64'];
     useBattery: typeof import('@vueuse/core')['useBattery'];
+    useBluetooth: typeof import('@vueuse/core')['useBluetooth'];
     useBreakpoints: typeof import('@vueuse/core')['useBreakpoints'];
     useBroadcastChannel: typeof import('@vueuse/core')['useBroadcastChannel'];
     useBrowserLocation: typeof import('@vueuse/core')['useBrowserLocation'];
@@ -453,6 +456,7 @@ declare module 'vue' {
     useTimeoutPoll: typeof import('@vueuse/core')['useTimeoutPoll'];
     useTimestamp: typeof import('@vueuse/core')['useTimestamp'];
     useTitle: typeof import('@vueuse/core')['useTitle'];
+    useTodoList: typeof import('./store/todos')['useTodoList'];
     useToggle: typeof import('@vueuse/core')['useToggle'];
     useTransition: typeof import('@vueuse/core')['useTransition'];
     useUrlSearchParams: typeof import('@vueuse/core')['useUrlSearchParams'];
